@@ -1,0 +1,19 @@
+Étapes
+
+index.php => trt1 => inscription.php
+validation inscription.php => trt2 => inscription.php + msg erreur / accueil.php (cas nominal)
+
+trt1
+===
+// recup liste fonctions 
+// recup liste offres 
+affichage inscription.php 
+
+trt2 
+===
+// recup datas 
+// control datas 
+// insert en BDD 
+// analyse code retour 
+    si erreur => msg + inscription.php 
+    sinon index.php 
